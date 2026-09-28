@@ -27,7 +27,6 @@ public class Main {
             }
         }
 
-        // Satu loop dengan referensi parent menunjukkan runtime polymorphism
         for (PrintJob job : jobs) {
             System.out.println(job.summary());
         }
